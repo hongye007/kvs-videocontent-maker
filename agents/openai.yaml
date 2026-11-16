@@ -1,0 +1,5 @@
+interface:
+  display_name: "KVS Video Content Maker"
+  short_description: "统一制作 GitHub、产品和 AI 工具视频内容"
+  brand_color: "#2F8E9B"
+  default_prompt: "使用 $kvs-videocontent-maker，按 video 或 video-mpc 模式制作视频内容草稿。图文任务转到 $kvs-imagenote-maker。"

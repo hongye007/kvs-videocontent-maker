@@ -1,0 +1,144 @@
+{
+  "candidates": [
+    {
+      "repo": "alpha/dev-console",
+      "category": "developer-productivity",
+      "language": "TypeScript",
+      "stars": 12000,
+      "stars_this_period": 1800,
+      "pushed_at": "2026-09-18T00:00:00Z",
+      "summary_zh": "集中查看和操作开发环境的调试控制台。",
+      "use_case_zh": "用于减少开发者在多个调试工具之间切换。",
+      "core_highlight_zh": "把高频诊断动作集中到一个入口。",
+      "risk_zh": "需要核验不同框架的兼容范围。",
+      "ratings": {
+        "developer_utility": {"score": 5, "reason": "Removes a recurring manual debugging step."},
+        "novelty": {"score": 4, "reason": "No similar project appeared recently."},
+        "evidence": {"score": 5, "reason": "README, source, releases, and license agree."},
+        "clarity": {"score": 5, "reason": "The use case fits in one sentence."},
+        "audience_fit": {"score": 5, "reason": "Directly useful to developers."}
+      },
+      "flags": {"archived": false, "license_missing": false}
+    },
+    {
+      "repo": "beta/data-lens",
+      "category": "data-ai",
+      "language": "Python",
+      "stars": 8000,
+      "stars_this_period": 2100,
+      "pushed_at": "2026-09-17T00:00:00Z",
+      "summary_zh": "面向 AI 数据集的快速检查与可视化工具。",
+      "use_case_zh": "用于发现数据分布、缺失值和格式问题。",
+      "core_highlight_zh": "把常见数据质量检查收进一次扫描。",
+      "risk_zh": "大数据集的性能边界需要实测。",
+      "ratings": {
+        "developer_utility": {"score": 4, "reason": "Makes dataset inspection faster."},
+        "novelty": {"score": 5, "reason": "Distinct from agent tooling."},
+        "evidence": {"score": 4, "reason": "Documented examples match the code."},
+        "clarity": {"score": 5, "reason": "The output is easy to demonstrate."},
+        "audience_fit": {"score": 5, "reason": "Relevant to AI and data developers."}
+      },
+      "flags": {"archived": false, "license_missing": false}
+    },
+    {
+      "repo": "gamma/deploy-kit",
+      "category": "deployment",
+      "language": "Go",
+      "stars": 5400,
+      "stars_this_period": 1200,
+      "pushed_at": "2026-09-15T00:00:00Z",
+      "summary_zh": "简化应用部署流程的命令行工具包。",
+      "use_case_zh": "用于把构建、配置和部署步骤串成一致流程。",
+      "core_highlight_zh": "减少重复部署配置和手工步骤。",
+      "risk_zh": "云平台覆盖范围需要核验。",
+      "ratings": {
+        "developer_utility": {"score": 5, "reason": "Shortens a concrete deployment workflow."},
+        "novelty": {"score": 4, "reason": "Adds infrastructure variety."},
+        "evidence": {"score": 4, "reason": "Install and release paths are documented."},
+        "clarity": {"score": 4, "reason": "The main benefit is easy to state."},
+        "audience_fit": {"score": 5, "reason": "Useful to application developers."}
+      },
+      "flags": {"archived": false, "license_missing": false}
+    },
+    {
+      "repo": "delta/trace-view",
+      "category": "observability",
+      "language": "Rust",
+      "stars": 9800,
+      "stars_this_period": 1000,
+      "pushed_at": "2026-09-12T00:00:00Z",
+      "summary_zh": "用于浏览和定位分布式追踪问题的工具。",
+      "use_case_zh": "用于排查请求链路中的延迟和错误。",
+      "core_highlight_zh": "把复杂 trace 压缩成可定位的异常视图。",
+      "risk_zh": "需要确认支持的追踪协议和存储后端。",
+      "ratings": {
+        "developer_utility": {"score": 4, "reason": "Improves trace diagnosis."},
+        "novelty": {"score": 4, "reason": "Different problem and visual proof."},
+        "evidence": {"score": 5, "reason": "Source, docs, and release notes align."},
+        "clarity": {"score": 4, "reason": "A concrete workflow can be shown."},
+        "audience_fit": {"score": 5, "reason": "Direct developer audience."}
+      },
+      "flags": {"archived": false, "license_missing": false}
+    },
+    {
+      "repo": "epsilon/ui-inspector",
+      "category": "frontend",
+      "language": "JavaScript",
+      "stars": 15000,
+      "stars_this_period": 900,
+      "pushed_at": "2026-09-10T00:00:00Z",
+      "summary_zh": "帮助前端开发者检查页面组件和状态的工具。",
+      "use_case_zh": "用于快速定位布局、样式和组件状态问题。",
+      "core_highlight_zh": "交互结果直观，演示成本低。",
+      "risk_zh": "与现有浏览器开发工具存在部分重叠。",
+      "ratings": {
+        "developer_utility": {"score": 4, "reason": "Useful during frontend inspection."},
+        "novelty": {"score": 3, "reason": "Some overlap with existing browser tools."},
+        "evidence": {"score": 4, "reason": "README and source support the claim."},
+        "clarity": {"score": 5, "reason": "The use is immediately understandable."},
+        "audience_fit": {"score": 5, "reason": "Targets frontend developers."}
+      },
+      "flags": {"archived": false, "license_missing": false}
+    },
+    {
+      "repo": "zeta/secure-config",
+      "category": "security",
+      "language": "Ruby",
+      "stars": 3200,
+      "stars_this_period": 750,
+      "pushed_at": "2026-09-08T00:00:00Z",
+      "summary_zh": "保护应用配置与密钥使用流程的安全工具。",
+      "use_case_zh": "用于发现危险配置并阻止常见泄露。",
+      "core_highlight_zh": "把威胁模型和配置检查结合起来。",
+      "risk_zh": "仓库缺少明确许可证，不能直接推荐商用。",
+      "ratings": {
+        "developer_utility": {"score": 4, "reason": "Prevents a common configuration error."},
+        "novelty": {"score": 4, "reason": "Security has not appeared recently."},
+        "evidence": {"score": 4, "reason": "Threat model and tests are available."},
+        "clarity": {"score": 4, "reason": "The protected failure mode is concrete."},
+        "audience_fit": {"score": 4, "reason": "Relevant to teams shipping services."}
+      },
+      "flags": {"archived": false, "license_missing": true}
+    },
+    {
+      "repo": "legacy/old-project",
+      "category": "automation",
+      "language": "Python",
+      "stars": 20000,
+      "stars_this_period": 3000,
+      "pushed_at": "2026-09-18T00:00:00Z",
+      "summary_zh": "已在历史栏目中介绍过的项目。",
+      "use_case_zh": "仅用于验证历史去重逻辑。",
+      "core_highlight_zh": "不应再次进入候选排序。",
+      "risk_zh": "重复项目。",
+      "ratings": {
+        "developer_utility": {"score": 5, "reason": "Strong utility but already covered."},
+        "novelty": {"score": 1, "reason": "Already used."},
+        "evidence": {"score": 5, "reason": "Strong sources."},
+        "clarity": {"score": 5, "reason": "Clear use case."},
+        "audience_fit": {"score": 5, "reason": "Developer-focused."}
+      },
+      "flags": {"archived": false, "license_missing": false}
+    }
+  ]
+}
